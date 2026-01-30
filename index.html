@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Japan Bridge - Study & Work in Japan</title>
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            animation: {
+              'fadeIn': 'fadeIn 0.8s ease-out',
+              'slideUp': 'slideUp 0.6s ease-out',
+              'pulse-gentle': 'pulse 2s ease-in-out infinite',
+              'float': 'float 3s ease-in-out infinite',
+              'scaleIn': 'scaleIn 0.5s ease-out',
+            },
+            keyframes: {
+              fadeIn: {
+                'from': { opacity: '0', transform: 'translateY(20px)' },
+                'to': { opacity: '1', transform: 'translateY(0)' }
+              },
+              slideUp: {
+                'from': { opacity: '0', transform: 'translateY(30px)' },
+                'to': { opacity: '1', transform: 'translateY(0)' }
+              },
+              float: {
+                '0%, 100%': { transform: 'translateY(0px)' },
+                '50%': { transform: 'translateY(-10px)' }
+              },
+              scaleIn: {
+                'from': { opacity: '0', transform: 'scale(0.8)' },
+                'to': { opacity: '1', transform: 'scale(1)' }
+              }
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Custom styles for enhanced interactions -->
+    <style>
+      .interactive-hover {
+        transition: all 0.3s ease-in-out;
+      }
+      .interactive-hover:hover {
+        transform: translateY(-4px) scale(1.02);
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+      }
+      .glow-red {
+        box-shadow: 0 0 20px rgba(220, 38, 38, 0.3);
+      }
+      .glow-blue {
+        box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+      }
+      
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #dc2626;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #b91c1c;
+      }
+      
+      /* Smooth transitions */
+      * {
+        transition: transform 0.2s ease, box-shadow 0.2s ease;
+      }
+      
+      button:active {
+        transform: scale(0.98);
+      }
+      
+      /* Focus states for accessibility */
+      button:focus-visible,
+      input:focus-visible,
+      textarea:focus-visible,
+      select:focus-visible {
+        outline: 2px solid #dc2626;
+        outline-offset: 2px;
+      }
+      
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
