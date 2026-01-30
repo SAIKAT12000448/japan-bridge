@@ -9,6 +9,7 @@ export default function JapanBridgeLanding() {
   const [expandedFAQ, setExpandedFAQ] = useState<number | null>(null);
   const [isCalculatorOpen, setIsCalculatorOpen] = useState(false);
   const [currentSlide, setCurrentSlide] = useState<number>(0);
+  
 
   useEffect(() => {
     const handleScroll = () => {
@@ -836,9 +837,12 @@ function CostCalculator() {
 }
 
 // Photo Carousel Component
-function PhotoCarousel({ currentSlide, setCurrentSlide }: {
+function PhotoCarousel({
+  currentSlide,
+  setCurrentSlide,
+}: {
   currentSlide: number;
-  setCurrentSlide: (index: number) => void;
+  setCurrentSlide: React.Dispatch<React.SetStateAction<number>>;
 }) {
   // Sample images - Replace these URLs with your actual images
   const images = [
