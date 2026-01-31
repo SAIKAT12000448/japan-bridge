@@ -158,9 +158,9 @@ export default function JapanBridgeLanding() {
                   />
                   <AnimatedStatCard
                     icon={<Home className="mx-auto mb-3 text-green-600" size={40} />}
-                    value={2}
+                    value={98}
                     suffix="%"
-                    label="Citizenship Rate"
+                    label="Job Oppurtunity"
                     bgColor="from-green-50 to-green-100"
                     delay={400}
                   />
@@ -644,11 +644,11 @@ export default function JapanBridgeLanding() {
           <div className="flex items-center gap-6 text-gray-600">
             <div className="flex items-center gap-2">
               <Phone size={18} />
-              <span>+81 90 1234 5678</span>
+              <span>+880 1760-746482</span>
             </div>
             <div className="flex items-center gap-2">
               <Mail size={18} />
-              <span>info@japan-bridge.example</span>
+              <span>japanbridge001@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={18} />
@@ -1090,32 +1090,32 @@ function TeamMembersGrid() {
   // EDIT THIS ARRAY - Add your team members' information here
  const teamMembers = [
   {
-    name: 'Youshida',
-    role: 'Founder & CEO',
+    name: 'yoshida minoru(吉田実)',
+    role: ' CEO & Owner',
     image: 'https://i.ibb.co.com/b5HgQdDP/youshida.png',
     description:
       'As the Founder and CEO, Youshida leads the vision and strategy of the organization, bringing over 15 years of experience in international education and student guidance for studying in Japan.',
-    email: 'john@japan-bridge.example',
+    email: '',
     color: 'red',
     icon: Users
   },
   {
-    name: 'Jane Smith',
+    name: 'MD.JAKIR HOSSAIN',
     role: 'Manager',
     image: 'https://i.ibb.co.com/qL5pXX3M/manager.png',
     description:
       'Jane oversees daily operations and student coordination, ensuring smooth management, effective communication, and high-quality support for students throughout their academic journey.',
-    email: 'jane@japan-bridge.example',
+    email: '',
     color: 'blue',
     icon: GraduationCap
   },
   {
     name: 'Avijit Kar',
-    role: 'Teacher & Consultant',
+    role: 'online class teacher&agent of japan bridge in japan',
     image: 'https://i.ibb.co.com/NGTk9M8/avhijit.jpg',
     description:
       'Avijit works closely with students as a teacher and consultant, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
-    email: 'tanaka@japan-bridge.example',
+    email: '',
     color: 'green',
     icon: Globe
   }
@@ -1256,8 +1256,8 @@ function ContactForm() {
               </div>
               <div>
                 <h4 className="font-semibold text-lg mb-1">Phone</h4>
-                <p className="text-red-100">+81 90 1234 5678</p>
-                <p className="text-red-100">+880 1XXX-XXXXXX</p>
+                <p className="text-red-100">+880 1331-320275</p>
+                <p className="text-red-100">+880 1760-746482</p>
               </div>
             </div>
 
@@ -1267,8 +1267,7 @@ function ContactForm() {
               </div>
               <div>
                 <h4 className="font-semibold text-lg mb-1">Email</h4>
-                <p className="text-red-100">info@japan-bridge.example</p>
-                <p className="text-red-100">support@japan-bridge.example</p>
+                <p className="text-red-100">japanbridge001@gmail.com</p>
               </div>
             </div>
 
@@ -1277,9 +1276,13 @@ function ContactForm() {
                 <MapPin className="text-white" size={24} />
               </div>
               <div>
-                <h4 className="font-semibold text-lg mb-1">Office</h4>
-                <p className="text-red-100">Tokyo, Japan</p>
-                <p className="text-red-100">Dhaka, Bangladesh</p>
+                <h4 className="font-semibold text-lg mb-1">Office Address</h4>
+                <p className="text-red-100 leading-relaxed">
+                  কুমিল্লা মেডিসিন টাওয়ার (৪র্থ তলা)
+                </p>
+                <p className="text-red-100 leading-relaxed">
+                  আলেখারচর বিশ্বরোড, কুমিল্লা
+                </p>
               </div>
             </div>
 
@@ -1289,24 +1292,24 @@ function ContactForm() {
               </div>
               <div>
                 <h4 className="font-semibold text-lg mb-1">Office Hours</h4>
-                <p className="text-red-100">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p className="text-red-100">Saturday: 10:00 AM - 4:00 PM</p>
+                <p className="text-red-100">Saturday - Thursday: 9:00 AM - 7:00 PM</p>
+                <p className="text-red-100">Friday: Closed</p>
               </div>
             </div>
           </div>
 
-          {/* Social Links (Optional) */}
+          {/* Social Links */}
           <div className="mt-10 pt-8 border-t border-white/20">
-            <h4 className="font-semibold text-lg mb-4">Follow Us</h4>
+            <h4 className="font-semibold text-lg mb-4">Connect With Us</h4>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-300">
-                <Globe size={20} />
+              <a href="tel:+8801331320275" className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-300" title="Call Us">
+                <Phone size={20} />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-300">
+              <a href="mailto:japanbridge001@gmail.com" className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-300" title="Email Us">
                 <Mail size={20} />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-300">
-                <Phone size={20} />
+              <a href="https://www.google.com/maps/search/কুমিল্লা+মেডিসিন+টাওয়ার" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-white/20 hover:bg-white/30 rounded-lg flex items-center justify-center transition-all duration-300" title="Find Us">
+                <MapPin size={20} />
               </a>
             </div>
           </div>
