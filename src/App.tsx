@@ -1100,7 +1100,7 @@ function TeamMembersGrid() {
     icon: Users
   },
   {
-    name: 'MD.JAKIR HOSSAIN',
+    name: 'UTTAM BHOWAL',
     role: 'Manager',
     image: 'https://i.ibb.co.com/qL5pXX3M/manager.png',
     description:
@@ -1118,17 +1118,20 @@ function TeamMembersGrid() {
     email: '',
     color: 'green',
     icon: Globe
+  },
+  {
+    name: 'Md.Jakir Hossain',
+    role: 'MD/Businessman',
+    image: 'https://i.ibb.co.com/NGTk9M8/avhijit.jpg',
+    description:
+      'Avijit works closely with students as a teacher and consultant, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
+    email: '',
+    color: 'green',
+    icon: Globe
   }
 ];
 
 
-  // Additional team members (optional)
-  const supportTeam = [
-    { name: 'Sarah Johnson', role: 'Language Instructor', icon: BookOpen, color: 'purple', image: '' },
-    { name: 'Ahmed Rahman', role: 'Student Counselor', icon: Users, color: 'orange', image: '' },
-    { name: 'Yuki Tanaka', role: 'Cultural Advisor', icon: Globe, color: 'pink', image: '' },
-    { name: 'Michael Chen', role: 'Career Coach', icon: Briefcase, color: 'indigo', image: '' }
-  ];
 
   return (
     <>
@@ -1166,26 +1169,7 @@ function TeamMembersGrid() {
         ))}
       </div>
 
-      {/* Support Team (Optional) */}
-      <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
-        {supportTeam.map((member, index) => (
-          <div key={index} className="bg-white rounded-xl shadow-lg p-6 text-center hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1">
-            {member.image ? (
-              <img 
-                src={member.image} 
-                alt={member.name}
-                className="w-16 h-16 rounded-full mx-auto mb-4 object-cover"
-              />
-            ) : (
-              <div className={`w-16 h-16 bg-gradient-to-br from-${member.color}-100 to-${member.color}-200 rounded-full flex items-center justify-center mx-auto mb-4`}>
-                <member.icon className={`text-${member.color}-600`} size={32} />
-              </div>
-            )}
-            <h4 className="text-lg font-bold text-gray-900 mb-1">{member.name}</h4>
-            <p className="text-sm text-gray-600">{member.role}</p>
-          </div>
-        ))}
-      </div>
+     
     </>
   );
 }
