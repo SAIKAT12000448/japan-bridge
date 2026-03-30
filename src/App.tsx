@@ -1202,15 +1202,15 @@ function ContactForm() {
 
     try {
       await emailjs.send(
-        "service_6yz0yba",
-        "template_7uqsnen",
+        "service_q1xu8h5",//service id
+        "template_1t4i5qq",//template id
         {
           name: form.name,
           email: form.email,
           phone: form.phone,
           message: form.message,
         },
-        "7rPWtSJs207cRZiB8"
+        "Z-rUBjRgIkCKQk2l9"//public key
       );
 
       alert("✅ Message sent successfully! We'll contact you within 24 hours.");
