@@ -1095,7 +1095,7 @@ function TeamMembersGrid() {
     image: 'https://i.ibb.co.com/b5HgQdDP/youshida.png',
     description:
       'As the Founder and CEO, Youshida leads the vision and strategy of the organization, bringing over 15 years of experience in international education and student guidance for studying in Japan.',
-    email: '',
+    email: 'japanbridge001@gmail.com',
     color: 'red',
     icon: Users
   },
@@ -1104,8 +1104,8 @@ function TeamMembersGrid() {
     role: 'Manager',
     image: 'https://i.ibb.co.com/qL5pXX3M/manager.png',
     description:
-      'Jane oversees daily operations and student coordination, ensuring smooth management, effective communication, and high-quality support for students throughout their academic journey.',
-    email: '',
+      'Uttam Bhowal oversees daily operations and student coordination, ensuring smooth management, effective communication, and high-quality support for students throughout their academic journey.',
+    email: 'japanbridge001@gmail.com',
     color: 'blue',
     icon: GraduationCap
   },
@@ -1115,7 +1115,7 @@ function TeamMembersGrid() {
     image: 'https://i.ibb.co.com/NGTk9M8/avhijit.jpg',
     description:
       'Avijit is a co-founder and consultant who works closely with students, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
-    email: '',
+    email: 'japanbridge001@gmail.com',
     color: 'green',
     icon: Globe
   },
@@ -1124,8 +1124,8 @@ function TeamMembersGrid() {
     role: 'MD/Businessman',
     image: 'https://i.ibb.co.com/601hL4dR/jakir.png',
     description:
-      'Avijit works closely with students as a teacher and consultant, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
-    email: '',
+      '',
+    email: 'japanbridge001@gmail.com',
     color: 'green',
     icon: Globe
   }
