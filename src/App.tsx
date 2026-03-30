@@ -1111,10 +1111,10 @@ function TeamMembersGrid() {
   },
   {
     name: 'Avijit Kar',
-    role: 'online class teacher&agent of japan bridge in japan',
+    role: 'CO-Founder/Consultant',
     image: 'https://i.ibb.co.com/NGTk9M8/avhijit.jpg',
     description:
-      'Avijit works closely with students as a teacher and consultant, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
+      'Avijit is a co-founder and consultant who works closely with students, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
     email: '',
     color: 'green',
     icon: Globe
@@ -1122,7 +1122,7 @@ function TeamMembersGrid() {
   {
     name: 'Md.Jakir Hossain',
     role: 'MD/Businessman',
-    image: 'https://i.ibb.co.com/NGTk9M8/avhijit.jpg',
+    image: 'https://i.ibb.co.com/601hL4dR/jakir.png',
     description:
       'Avijit works closely with students as a teacher and consultant, providing academic guidance, career advice, and expert support on study plans and immigration processes for Japan.',
     email: '',
